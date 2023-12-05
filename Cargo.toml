@@ -1,3 +1,9 @@
 [workspace]
 resolver = "2"
-members = [ "day01" ]
+members = [ "day01", "day02" ]
+
+[lints.rust]
+rust_2018_idioms = "forbid"
+
+[lints.clippy]
+enum_glob_use = "forbid"
